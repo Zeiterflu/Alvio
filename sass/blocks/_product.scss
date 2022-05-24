@@ -1,0 +1,38 @@
+.product {
+    padding-top: 120px;
+    padding-bottom: 166px;
+    &__row {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__descr {
+        width: 584px;
+        margin-left: 86px;
+
+        h2 {
+            font-family: 'Lora';
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 157%;     
+            color: #01996D;
+        }
+
+        p {
+            font-family: 'Lato';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 31px;
+            color: #484848;
+            margin-bottom: 60px;
+        }   
+    }
+
+    &__suptitle {
+        font-size: 25px;
+        color: #424242;
+        font-family: 'Lato';
+        margin-bottom: 20px;
+    }
+
+}

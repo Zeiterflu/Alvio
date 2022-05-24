@@ -1,0 +1,26 @@
+.footer {
+    background-color: #245852;
+    padding-top: 104px;
+    padding-bottom: 144px;
+    &__list {
+
+        h2 {
+            font-family: 'Lato';
+            font-weight: 700;
+            font-size: 35px;
+            color: #FFFFFF;
+            margin-bottom: 74px;
+        }
+
+        li {
+            font-family: 'Lato';
+            font-size: 25px;
+            color: #FFFFFF;
+            margin-bottom: 60px;
+        }
+        li:last-child {
+            margin-bottom: 0;
+        }
+
+    }
+}

@@ -1,0 +1,269 @@
+.container {
+  max-width: 1340px;
+  padding: 0px 15px;
+  margin: 0 auto; }
+
+.btn {
+  background-color: #01996D;
+  color: white;
+  padding: 13px 50px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in;
+  font-family: 'Lato'; }
+  .btn:hover {
+    background-color: #105844; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Lora', serif; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit; }
+
+input, button {
+  font-family: inherit;
+  border: none;
+  font-size: inherit; }
+
+input[type="submit"], button {
+  font-family: inherit;
+  border: none;
+  font-size: inherit; }
+
+input:focus, button:focus {
+  outline: none; }
+
+ul, li {
+  list-style: none; }
+
+button {
+  cursor: pointer;
+  background: none; }
+
+.header {
+  padding: 15px;
+  font-family: 'Lato';
+  font-size: 16px;
+  border-bottom: 1px solid #D6D6D6; }
+  .header__row {
+    display: flex;
+    justify-content: space-between; }
+  .header__list {
+    display: flex;
+    align-items: center; }
+    .header__list-item {
+      padding-right: 72px; }
+    .header__list-item:first-child {
+      padding-left: 170px; }
+    .header__list-item:last-child {
+      padding-right: 282px; }
+  .header__form a {
+    padding: 0px 20px; }
+
+.intro {
+  background-image: url("../../img/BG (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .intro__descr {
+    padding: 175px 0px 336px 0px;
+    width: 440px; }
+    .intro__descr h1 {
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 74px;
+      color: #01996D;
+      margin-bottom: 30px; }
+    .intro__descr p {
+      font-family: 'Lato';
+      color: #484848;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 31px;
+      margin-bottom: 53px; }
+
+.works {
+  padding-top: 169px;
+  padding-bottom: 52px; }
+  .works__title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .works__title-main {
+    width: 584px; }
+    .works__title-main p {
+      font-family: 'Lato';
+      font-weight: 600;
+      font-size: 24px;
+      color: #424242; }
+    .works__title-main h2 {
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 157%;
+      color: #01996D; }
+  .works__title-descr {
+    width: 671px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242; }
+
+.cards__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+.cards__item {
+  width: 390px; }
+  .cards__item-title {
+    text-align: center;
+    padding: 100px 0px 55px 0px;
+    position: relative; }
+    .cards__item-title h2 {
+      font-weight: 700;
+      font-size: 30px; }
+    .cards__item-title-el {
+      position: absolute;
+      top: 40px;
+      left: 60px;
+      opacity: 0.2;
+      color: #01996D;
+      font-size: 90px; }
+  .cards__item p {
+    font-family: 'Lato';
+    margin-bottom: 60px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%; }
+  .cards__item:nth-child(2n) {
+    margin-top: 339px; }
+  .cards__item:last-child {
+    margin-top: 106px; }
+
+.testimonial {
+  background-color: #245852; }
+  .testimonial__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .testimonial__text {
+    margin-top: 310px;
+    margin-bottom: 260px;
+    width: 580px; }
+    .testimonial__text h2 {
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 157%;
+      color: #FFFFFF;
+      margin-bottom: 33px; }
+    .testimonial__text p {
+      font-size: 25px;
+      color: #FFFFFF;
+      margin-bottom: 57px; }
+
+.video__container {
+  position: relative; }
+.video__img {
+  width: 700px;
+  height: 450px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 16.3326px;
+  overflow: hidden; }
+.video__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%); }
+
+.product {
+  padding-top: 120px;
+  padding-bottom: 166px; }
+  .product__row {
+    display: flex;
+    align-items: flex-start; }
+  .product__descr {
+    width: 584px;
+    margin-left: 86px; }
+    .product__descr h2 {
+      font-family: 'Lora';
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 157%;
+      color: #01996D; }
+    .product__descr p {
+      font-family: 'Lato';
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 31px;
+      color: #484848;
+      margin-bottom: 60px; }
+  .product__suptitle {
+    font-size: 25px;
+    color: #424242;
+    font-family: 'Lato';
+    margin-bottom: 20px; }
+
+.picture {
+  position: relative; }
+  .picture__card {
+    filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+    position: absolute;
+    background-color: white;
+    border-radius: 3.72971px;
+    bottom: -90px;
+    left: -150px;
+    padding: 0px 55px 0px 55px; }
+    .picture__card-title {
+      padding-top: 22px;
+      text-align: center;
+      margin-bottom: 21px; }
+    .picture__card-block {
+      text-align: center; }
+    .picture__card-img {
+      margin-bottom: 10px; }
+    .picture__card-subtitle {
+      margin-bottom: 20px; }
+    .picture__card-list-title {
+      margin-bottom: 15px;
+      font-weight: 700;
+      font-size: 15.9292px; }
+    .picture__card-list-item {
+      margin-bottom: 15px; }
+      .picture__card-list-item:last-child {
+        margin-bottom: 32px; }
+
+.footer {
+  background-color: #245852;
+  padding-top: 104px;
+  padding-bottom: 144px; }
+  .footer__list h2 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-bottom: 74px; }
+  .footer__list li {
+    font-family: 'Lato';
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 60px; }
+  .footer__list li:last-child {
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=main.css.map */

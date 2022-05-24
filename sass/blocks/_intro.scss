@@ -1,0 +1,30 @@
+.intro {
+    background-image: url("../../img/BG\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &__descr {
+        padding: 175px 0px 336px 0px;
+        width: 440px;
+
+        h1 {
+            font-weight: 700;
+            font-size: 65px;
+            line-height: 74px;
+            color: #01996D;
+            margin-bottom: 30px;
+        }
+        
+        p {
+            font-family: 'Lato';
+            color: #484848;
+            font-weight: 400;
+            font-size: 20px;    
+            line-height: 31px;
+            margin-bottom: 53px;
+        }
+    }
+}
+
+

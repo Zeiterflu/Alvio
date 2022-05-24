@@ -1,0 +1,51 @@
+.cards {
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item {
+        width: 390px;
+
+        &-title {
+            text-align: center;
+            padding: 100px 0px 55px 0px;
+            position: relative;
+            h2 {
+                font-weight: 700;
+                font-size: 30px;
+            }
+
+            &-el {
+                position: absolute;
+                top: 40px;
+                left: 60px;
+                opacity: 0.2;
+                color: #01996D;
+                font-size: 90px;
+            }
+
+        }
+
+        p {
+            font-family: 'Lato';
+            margin-bottom: 60px;
+            color: #424242;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+
+        }
+
+        &:nth-child(2n) {
+            margin-top: 339px;
+        }
+
+        &:last-child {
+            margin-top: 106px;
+        }
+    }
+
+}
